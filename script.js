@@ -8,3 +8,9 @@ contactForm.addEventListener("submit", (event) => {
 
     alert(`Thank you, ${name}! Your message has been received.`);
 });
+
+document.addEventListener("keydown", (event) => {
+    if (event.key === "Tab" && event.repeat) {
+        event.preventDefault();
+    }
+});
