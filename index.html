@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Production portfolio showcasing projects, skills, and contact information."
+    >
+    <title>Production Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Skip link for keyboard users -->
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <nav class="navbar" aria-label="Primary navigation">
+            <a class="logo" href="#">Portfolio</a>
+
+            <ul class="nav-list">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section id="hero" class="hero" aria-labelledby="hero-title">
+            <p class="eyebrow">Production Portfolio</p>
+
+            <h1 id="hero-title">Building accessible digital experiences.</h1>
+
+            <p>
+                A production-focused portfolio demonstrating semantic HTML,
+                accessible design, responsive layouts, and clean web development.
+            </p>
+
+            <a class="button" href="#projects">View Projects</a>
+        </section>
+
+        <section id="about" aria-labelledby="about-title">
+            <h2 id="about-title">About Me</h2>
+
+            <p>
+                I focus on building modern web experiences with accessibility,
+                usability, performance, and maintainable code in mind.
+            </p>
+        </section>
+
+        <section id="projects" aria-labelledby="projects-title">
+            <h2 id="projects-title">Projects</h2>
+
+            <div class="project-grid">
+                <article class="project-card">
+                    <div class="project-image" role="img" aria-label="Project preview placeholder">
+                        Project 01
+                    </div>
+
+                    <h3>Web Application</h3>
+
+                    <p>
+                        A responsive web application built with semantic HTML,
+                        CSS, and JavaScript.
+                    </p>
+
+                    <a href="#contact">Learn more</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image" role="img" aria-label="Project preview placeholder">
+                        Project 02
+                    </div>
+
+                    <h3>Production Interface</h3>
+
+                    <p>
+                        An accessible interface designed for usability across
+                        desktop and mobile devices.
+                    </p>
+
+                    <a href="#contact">Learn more</a>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image" role="img" aria-label="Project preview placeholder">
+                        Project 03
+                    </div>
+
+                    <h3>Portfolio System</h3>
+
+                    <p>
+                        A production-ready portfolio structure focused on
+                        accessibility and performance.
+                    </p>
+
+                    <a href="#contact">Learn more</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-title">
+            <h2 id="contact-title">Contact</h2>
+
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input
+                        id="name"
+                        name="name"
+                        type="text"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required
+                    ></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Production Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
